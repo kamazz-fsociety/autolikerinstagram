@@ -15,11 +15,12 @@ print(Fore.RED + 'Enter only correct login and password, else script will not wo
 print(Fore.GREEN)
 logincha = input("Enter your login: ")
 password1 = input("Enter your password: ")
+path = input("Full link to the whereabouts of chromedriver: \n Change \\ to / on your link ")
 hashtag = input("Enter hashtag without #: ")
 options = webdriver.ChromeOptions()
 options.add_experimental_option("detach", True)
 
-driver = webdriver.Chrome(options=options)
+driver = webdriver.Chrome(executable_path=path, options=options)
 
 
 
