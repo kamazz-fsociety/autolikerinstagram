@@ -1,0 +1,6 @@
+colorama==0.4.4
+names==0.3.0
+PyAutoGUI==0.9.52
+requests==2.26.0
+selenium==4.1.0
+webdriver-manager==3.5.2
