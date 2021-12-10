@@ -49,7 +49,7 @@ clickHASHTAG = driver.find_element_by_xpath('//*[@id="react-root"]/div/div/secti
 clickHASHTAG.click()
 t.sleep(2)
 pyautogui.sleep(2)
-clickbtn = driver.find_element_by_xpath('//*[@id="react-root"]/div/div/section/main/article/div[1]/div/div/div[1]/div[2]/a/div')
+clickbtn = driver.find_element_by_xpath('//*[@id="react-root"]/div/div/section/main/article/div[1]/div/div/div[1]/div[2]')
 clickbtn.click()
 while 1==1:
 	t.sleep(0.5)
